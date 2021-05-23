@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title> Guest list</title>
+        <link rel = "stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body background="https://static.onecms.io/wp-content/uploads/sites/28/2016/05/host-weekend-guests0516.jpg">
+        <h1> Guest list </h1>
+        <span>
+            <input type="text" placeholder="guests" id="inputGuest">
+            <button onclick="submit()"> SUBMIT guest name</button>
+        </span>
+        <br>
+        <hr>
+        <div>
+            <button onclick = "show()">Show guests</button>
+            <div id="Guests"></div>
+        </div>
+        <br>
+        <hr>
+        <span>
+            <input type="search" value="" id="Searching" onchange = "find()">
+        </span>
+        <br>
+        <div id = "name1"></div>
+    </body>
+</html>
